@@ -80,7 +80,7 @@
   </div>
 
   <script>
-    const API_KEY = "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"; // 
+    const API_KEY = "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"; //troquem essa api key aqui que vota a funcionar. ASS: dj buda
     const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
     const REQUEST_TIMEOUT = 30000;
 
@@ -205,7 +205,7 @@
         addBotBubble(reply);
       } catch (err) {
         hideTyping();
-        addBotBubble("❌ Erro ao conectar com a API: " + err.message);
+        addBotBubble("Erro ao conectar com a API: " + err.message);
       }
     }
 
@@ -225,6 +225,3 @@
   </script>
 </body>
 </html>
-
-
-
